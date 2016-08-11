@@ -1,5 +1,40 @@
 #include "background_peaks_update.h"
 
+// TODO: every file should define some comments on top of that 
+// File: ProjectXXX.suffix
+// Author: John Doe
+// E-Mail: John.Doe@MegaCorp.com
+// Date: 26th july 2016
+// Description: Header file for Project X
+//              This file contains the defined types for Project X
+//              This is sometimes called the "Abstract" and may be
+//              followed by a section called "Notes".
+
+
+// TODO: class name should reflect file name as you shouldn't use
+ // '_' in filename. like (background_peaks_update.cpp should be backgroundPeaksUpdate.cpp).
+
+ // TODO:  Comment on variable goes here. 
+ // like that function :
+ // void class::function(int para1 /**< Comment on variable goes here. */
+//                       int para2 /**< Comment on variable goes here. */)
+// {
+
+//}
+
+// TODO: Write description of function here. 
+// The function should follow these comments.
+// The function arguments listed with "param" will be compared
+// to the declaration and verified.
+// @param[in]     _inArg1 Description of first function argument.
+// @param[out]    _outArg2 Description of second function argument.
+// @param[in,out] _inoutArg3 Description of third function argument.
+// @return Description of returned value.
+
+// TODO: Single line comment for dOxygen in inside every function.
+
+// TODO: add a blank line at the end of the file with at least one blank space.
+
 BackgroundPeakUpdate::BackgroundPeakUpdate(QWidget*) {
         mainwindow = NULL;
         _stopped = true;
@@ -60,6 +95,9 @@ void BackgroundPeakUpdate::run(void) {
         return;
 }
 
+
+
+
 void BackgroundPeakUpdate::writeCSVRep(string setName) {
 
         //write reports
@@ -75,6 +113,7 @@ void BackgroundPeakUpdate::writeCSVRep(string setName) {
                 PeakGroup& group = mavenParameters->allgroups[j];
                 Compound* compound = group.compound;
 
+                // TODO: Break up long Boolean expressions and parameter lists onto separate lines with appropriate indentation for alignment.
                 if (mavenParameters->pullIsotopesFlag && !group.isIsotope())
                         pullIsotopes(&group);
                 if (csvreports != NULL)
