@@ -1,10 +1,8 @@
 #include "background_peaks_update.h"
 
 // TODO: every file should define some comments on top of that 
-/**
- @file: ProjectXXX.suffix
- @author: John Doe
- **/
+// File: ProjectXXX.suffix
+// Author: John Doe
 // E-Mail: John.Doe@MegaCorp.com
 // Date: 26th july 2016
 // Description: Header file for Project X
