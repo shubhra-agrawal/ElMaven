@@ -1,5 +1,10 @@
 #include "background_peaks_update.h"
 
+//! Brief description, which is
+//! really a detailed description since it spans multiple lines.
+/*! Another detailed description!
+ */
+
 /// TODO: every file should define some comments on top of that 
 /// File: ProjectXXX.suffix
 /// Author: John Doe
@@ -98,7 +103,7 @@ void BackgroundPeakUpdate::run(void) {
 
 
 
-void BackgroundPeakUpdate::writeCSVRep(string setName) {
+void BackgroundPeakUpdate::writeCSVRep(string setName /*!< Detailed description after the member */) {
 
         //write reports
         CSVReports* csvreports = NULL;
