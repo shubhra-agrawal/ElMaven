@@ -1,9 +1,16 @@
 #include "background_peaks_update.h"
 
-//! Brief description, which is
-//! really a detailed description since it spans multiple lines.
-/*! Another detailed description!
- */
+/** @mainpage ProjectX: bla, bla, bla
+*   @par Description:
+*   - Point 1 bla, bla, bla
+*   - Point 2 bla, bla, bla
+*   - Point 3 bla, bla, bla
+*
+*   @par Next paragraph - more information:
+*    bla, bla, bla
+*    bla, bla, bla
+*/
+
 
 /// TODO: every file should define some comments on top of that 
 /// File: ProjectXXX.suffix
