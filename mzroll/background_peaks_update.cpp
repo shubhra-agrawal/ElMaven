@@ -27,7 +27,7 @@
 
 /// TODO: every file should define some comments on top of that 
 /// File: ProjectXXX.suffix
-/// @Author: John Doe
+/// Author: John Doe
 /// E-Mail: John.Doe@MegaCorp.com
 /// Date: 26th july 2016
 /// Description: Header file for Project X
@@ -76,6 +76,14 @@ BackgroundPeakUpdate::~BackgroundPeakUpdate() {
  * BackgroundPeakUpdate::run This function starts the thread. This function is
  * called by start() internally in QTThread. start() function will be called
  * where the thread starts.
+ */
+ 
+ /*! \fn const char *Test::member(char c,int n) 
+ *  \brief A member function.
+ *  \param c a character.
+ *  \param n an integer.
+ *  \exception std::out_of_range parameter is out of range.
+ *  \return a character pointer.
  */
 void BackgroundPeakUpdate::run(void) {
         //Making sure that instance of the mainwindow is present so that the
