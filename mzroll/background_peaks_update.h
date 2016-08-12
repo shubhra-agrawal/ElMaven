@@ -17,6 +17,11 @@ class EIC;
 
 extern Database DB;
 
+//!  A test class. 
+/*!
+  A more elaborate class description.
+*/
+
 /**
  * @class BackgroundPeakUpdate
  * @ingroup mzroll
@@ -27,8 +32,17 @@ class BackgroundPeakUpdate: public QThread {
 Q_OBJECT
 
 public:
-
+    
+	//! A constructor.
+    /*!
+      A more elaborate description of the constructor.
+    */
 	BackgroundPeakUpdate(QWidget*);
+
+	//! A destructor.
+    /*!
+      A more elaborate description of the destructor.
+    */
 	~BackgroundPeakUpdate();
 
 	/**
@@ -47,16 +61,6 @@ public:
 		mavenParameters = mp;
 	}
 
-	/**
-	* a normal member taking two arguments and returning an integer value.
-	* @param a an integer argument.
-	* @param s a constant character pointer.
-	* @see Test()
-	* @see ~Test()
-	* @see testMeToo()
-	* @see publicVar()
-	* @return The test results
-	*/
 	/**
 	 * [set Peak Detector]
 	 * @param pd [pointer to peakDetector]
