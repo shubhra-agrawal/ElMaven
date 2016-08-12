@@ -1,6 +1,10 @@
 #ifndef BACKGROUND_PEAK_UPDATE_H
 #define BACKGROUND_PEAK_UPDATE_H
 
+/**
+ * @file background_peaks_update.h
+ */
+
 #include "stable.h"
 #include "mzSample.h"
 #include "mainwindow.h"
