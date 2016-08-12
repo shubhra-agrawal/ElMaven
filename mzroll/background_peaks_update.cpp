@@ -78,12 +78,12 @@ BackgroundPeakUpdate::~BackgroundPeakUpdate() {
  * where the thread starts.
  */
 
- /*! @see const char *Test::member(char c,int n) 
+/** @see BackgroundPeakUpdate::run(void)
  *  @brief A member function.
- *  @param c a character.
- *  @param n an integer.
+ *  @param[in] c a character.
+ *  @param[out] n an integer.
  *  @exception std::out_of_range parameter is out of range.
- *  @return a character pointer.
+ *  @return a void pointer.
  */
 void BackgroundPeakUpdate::run(void) {
         //Making sure that instance of the mainwindow is present so that the
