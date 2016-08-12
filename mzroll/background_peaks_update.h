@@ -17,6 +17,10 @@ class EIC;
 
 extern Database DB;
 
+//!  A test class. 
+/*!
+  A more elaborate class description.
+*/
 
 /**
  * @class BackgroundPeakUpdate
