@@ -77,13 +77,13 @@ BackgroundPeakUpdate::~BackgroundPeakUpdate() {
  * called by start() internally in QTThread. start() function will be called
  * where the thread starts.
  */
- 
- /*! \fn const char *Test::member(char c,int n) 
- *  \brief A member function.
- *  \param c a character.
- *  \param n an integer.
- *  \exception std::out_of_range parameter is out of range.
- *  \return a character pointer.
+
+ /*! @see const char *Test::member(char c,int n) 
+ *  @brief A member function.
+ *  @param c a character.
+ *  @param n an integer.
+ *  @exception std::out_of_range parameter is out of range.
+ *  @return a character pointer.
  */
 void BackgroundPeakUpdate::run(void) {
         //Making sure that instance of the mainwindow is present so that the
