@@ -68,7 +68,7 @@ categories: main
 
 <p>If it compiles successfully, it will create an executable in the bin folder. To launch maven by running the executable, use the command:
 </p>
-<pre>./bin/maven_dev_769</pre>
+<pre>./bin/El_Maven_0.1</pre>
 
 <p>To uninstall Maven, use the command:</p>
 <pre>./uninstall</pre>
