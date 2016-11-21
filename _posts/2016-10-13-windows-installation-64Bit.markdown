@@ -6,8 +6,15 @@ categories: main
 ---
 <h1>Installing El-Maven</h1>
 <h3>Follow the steps to install El-Maven on 64bit Windows system:</h3>
-<p>1. Double click on the installer</p>
+<p>1. Double click on the installer and click Next</p>
 ![El-Maven Setup](https://dl.dropboxusercontent.com/s/t38t3jm1spc86hp/1.PNG?dl=0){:class="img-responsive"}
+<p>2. Choose the path where you want to install El-Maven and then click Next</p>
+![El-Maven Setup](https://dl.dropboxusercontent.com/s/elanm23f0f4pemc/2.PNG?dl=0){:class="img-responsive"}
+<p>3. Click Next to start Installing. It'll take less than 30 seconds to install</p>
+![El-Maven Setup](https://dl.dropboxusercontent.com/s/apkiw057kx52kbc/3.PNG?dl=0){:class="img-responsive"}
+![El-Maven Setup](https://dl.dropboxusercontent.com/s/b8ssmmlvmjqpe14/4.PNG?dl=0){:class="img-responsive"}
+<p>4. Click finish to end the Installation. A shortcut is made on the Desktop. Now you can start using El-Maven</p>
+![El-Maven Setup](https://dl.dropboxusercontent.com/s/em2d4dtk59k3f61/5.PNG?dl=0){:class="img-responsive"}
 <h1>Setting up El-Maven on Windows 64-Bit</h1>
 <h3>Setting up libraries and tool chains</h3>
 <p>Update the package database and pacman with:<pre>pacman --force -Sy</pre></p>
@@ -62,7 +69,7 @@ categories: main
 </p>
 
 <p>To clone the master branch of the remote repository, use the following command: </p>
-<p><pre>git clone https://github.com/sabsgeo/nonlinear-optimization</pre></p>
+<p><pre>git clone https://github.com/ElucidataInc/ElMaven.git</pre></p>
 
 <p>Now you have the latest version of Maven in the folder you made.</p>
 <p>To build Maven, run the script, run.sh using the command</p>

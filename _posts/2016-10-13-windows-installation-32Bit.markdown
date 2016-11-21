@@ -58,7 +58,7 @@ categories: main
 </p>
 
 <p>To clone the master branch of the remote repository, use the following command: </p>
-<p><pre>git clone https://github.com/sabsgeo/nonlinear-optimization</pre></p>
+<p><pre>git clone https://github.com/ElucidataInc/ElMaven.git</pre></p>
 
 <p>Now you have the latest version of Maven in the folder you made.</p>
 <p>To build Maven, run the script, run.sh using the command</p>

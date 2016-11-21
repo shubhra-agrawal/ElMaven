@@ -94,7 +94,7 @@ For Example: cd /home/elucidata/Downloads
 <pre>cd &#60;pathtofolder&#62;    #for example: cd /home/elucidata/Desktop</pre>
 <p>To clone the master branch of the remote repository, use the following command:</p>
 
-<pre>git clone https://github.com/sabsgeo/nonlinear-optimization</pre>
+<pre>git clone https://github.com/ElucidataInc/ElMaven.git</pre>
 <p>Now you have the latest version of Maven in the folder you made.</p>
 
 <p>To build Maven, run the script, run.sh using the command</p>
