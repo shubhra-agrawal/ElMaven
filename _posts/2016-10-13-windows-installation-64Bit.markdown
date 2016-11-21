@@ -7,7 +7,7 @@ categories: main
 <h1>Installing El-Maven</h1>
 <h3>Follow the steps to install El-Maven on 64bit Windows system:</h3>
 <p>1. Double click on the installer</p>
-![El-Maven Setup](../Images/1.PNG){:class="img-responsive"}
+![El-Maven Setup](/Images/1.PNG){:class="img-responsive"}
 <h1>Setting up El-Maven on Windows 64-Bit</h1>
 <h3>Setting up libraries and tool chains</h3>
 <p>Update the package database and pacman with:<pre>pacman --force -Sy</pre></p>
