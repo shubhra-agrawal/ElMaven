@@ -5,15 +5,15 @@ date:   2016-02-12 17:50:00
 categories: main
 ---
 <h1>Setting up El Maven on Ubuntu</h1>
-<p>Installing Maven in Ubuntu invloves intalling QT4 and a few libraries which allow for signalling and handling scientific data.
+<p>Installing Maven in Ubuntu invloves intalling QT5 and a few libraries which allow for signalling and handling scientific data.
 This tutorial covers how to install these libraries and then using them to launch Maven in Ubuntu.
 </p>
 
 <h3>Setting up libraries and tool chain</h3>
 <p>The libraries and tool required are mentioned below:</p>
 <p>1.  &nbsp;QT</p>
-<p>To install QT4 development tools in Ubuntu use the command:</p>
-<pre>sudo apt-get install qt4-dev-tools</pre>
+<p>To install QT5 development tools in Ubuntu use the command:</p>
+<pre>sudo apt-get install qt5-default qttools5-dev-tools</pre>
 
 
 

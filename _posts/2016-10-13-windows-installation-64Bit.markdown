@@ -40,8 +40,8 @@ categories: main
 <pre>pacman --force -Sy mingw-w64-x86_64-toolchain</pre>
 </p>
 <p>
-    4. &nbsp;mingw-w64-x86_64-qt4 - The Qt Installer Framework used for the Qt SDK installer. Install QT4 using the command:
-<pre>pacman --force -Sy mingw-w64-x86_64-qt4</pre>
+    4. &nbsp;mingw-w64-x86_64-qt5 - The Qt Installer Framework used for the Qt SDK installer. Install QT5 using the command:
+<pre>pacman --force -Sy mingw-w64-x86_64-qt5</pre>
 </p>
 <p>
     hdf5 is a general purpose library and file format for storing scientific data. Install it using the command:
