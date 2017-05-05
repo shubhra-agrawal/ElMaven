@@ -6,17 +6,18 @@ TEMPLATE=lib
 
 CONFIG += staticlib warn_off console silent
 
-#Faster build + C++11 ++ OpenMP
+#Faster build + c++14 ++ OpenMP
 
 #QMAKE_CFLAGS_RELEASE += -fopenmp
 #QMAKE_CFLAGS_DEBUG += -fopenmp
 
-QMAKE_CXXFLAGS += -Ofast -ffast-math -march=native -std=c++11
+QMAKE_CXXFLAGS += -Ofast -ffast-math -march=native -std=c++14
 QMAKE_CXXFLAGS += -DOMP_PARALLEL
 
-#QMAKE_CXXFLAGS += -Ofast -ffast-math -march=native -std=c++11
-QMAKE_CXXFLAGS += -fopenmp
-LIBS += -fopenmp
+#QMAKE_CXXFLAGS += -Ofast -ffast-math -march=native -std=c++14
+QMAKE_CXXFLAGS+= -openmp
+QMAKE_LFLAGS += -openmp
+
 
 TARGET = maven
 

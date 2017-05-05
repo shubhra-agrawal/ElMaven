@@ -31,5 +31,5 @@ contains(QMAKE_CC, cl) {
 } else {
 	pillow_static: PILLOWCORE_LIB_FILE = lib$${PILLOWCORE_LIB_NAME}.a
 	!pillow_static: PILLOWCORE_LIB_FILE = lib$${PILLOWCORE_LIB_NAME}.so
-	QMAKE_CXXFLAGS += --std=c++11
+	QMAKE_CXXFLAGS += --std=c++14
 }

@@ -6,6 +6,7 @@ INSTALL_LIBDIR = $$(INSTALL_LIBDIR)
 unix {
   !mac {
     isEmpty(INSTALL_LIBDIR):INSTALL_LIBDIR=lib
+    unix: LIBS += -lboost_signals
 } }
 
 INSTALL_PREFIX=$$(DESTDIR)$$INSTALL_PREFIX
@@ -14,11 +15,12 @@ DEFINES += INSTALL_LIBDIR=\\\"$$INSTALL_LIBDIR\\\"
 QMAKE_CXXFLAGS_RELEASE += -O3 -Wall -Wno-sign-compare
 CONFIG += no_keywords
 unix: INCLUDEPATH += /usr/lib/x86_64-linux-gnu/
-unix: LIBS += -lboost_signals
+
 win32: LIBS += -lboost_signals-mt
 
+
 QT += core
-CONFIG += silent exceptions
+CONFIG += silent exceptions std+14
 OBJECTS_DIR = tmp
 MOC_DIR = tmp
 UI_DIR   =  tmp
@@ -39,11 +41,12 @@ win32 {
 
 mac {
     message("using mac config")
-    DEFINES += CDFPARSER
+    DEFINES -= CDFPARSER
+    LIBS -= -lcdfread -lnetcdf
+
     DEFINES += ZLIB
-    DEFINES += unix
-    LIBS += -lz -lcdfread -lnetcdf
-    DEFINES += MAC
+    LIBS += -lz
+    INCLUDEPATH += /opt/local/include
 }
 
 unix {

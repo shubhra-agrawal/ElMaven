@@ -3,12 +3,13 @@ include(../mzroll.pri)
 
 CONFIG += qt thread warn_off sql svg console precompile_header
 
-#Faster build + C++11 ++ OpenMP
+#Faster build + c++14 ++ OpenMP
 
-QMAKE_CXXFLAGS += -Ofast -ffast-math -march=native -std=c++11
+QMAKE_CXXFLAGS += -Ofast -ffast-math -march=native -std=c++14
 QMAKE_CXXFLAGS += -DOMP_PARALLEL
-QMAKE_CXXFLAGS += -fopenmp
-LIBS += -fopenmp
+QMAKE_CXXFLAGS+= -openmp
+QMAKE_LFLAGS += -openmp
+
 
 
 QMAKE_STRIP=echo
@@ -34,7 +35,7 @@ QT += sql network xml printsupport
 INCLUDEPATH +=  /usr/include/x86_64-linux-gnu/qt5/QtXml/ /usr/include/x86_64-linux-gnu/qt5/QtSql
 INCLUDEPATH += ../libmaven ../maven ../pugixml/src ../libneural ../zlib/ ../Eigen/ ../libpls ../libcsvparser ../libplog
 
-LIBS += -L.  -lmaven -lpugixml -lneural -lcsvparser -lpls -lplog                  #64bit
+LIBS += -L.  -lmaven -lpugixml -lneural -lcsvparser -lpls                 #64bit
 
 message($$LIBS)
 

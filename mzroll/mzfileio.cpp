@@ -1,7 +1,7 @@
 #include "mzfileio.h"
 #include <QStringList>
 #include <QTextStream>
-#include <omp.h>
+//#include <omp.h>
 
 mzFileIO::mzFileIO(QWidget*) {
     _mainwindow = NULL;

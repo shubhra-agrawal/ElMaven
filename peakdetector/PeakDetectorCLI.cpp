@@ -10,7 +10,7 @@
 #include "mzSample.h"
 #include "mzMassSlicer.h"
 #include "options.h"
-#include "omp.h"
+//#include "omp.h"
 #include "../libmaven/classifierNeuralNet.h"
 #include <sys/time.h>
 

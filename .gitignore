@@ -101,3 +101,6 @@ maven_opensource.kdev4
 moc_*.cpp
 ui_*.h
 *.moc
+
+#MAC
+*.DS_Store

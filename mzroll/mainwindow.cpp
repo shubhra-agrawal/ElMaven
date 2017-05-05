@@ -146,8 +146,10 @@ using namespace mzUtils;
 	#ifdef UNIX
 	signal(SIGQUIT, signalHandler);
 	signal(SIGBUS, signalHandler);
+	#ifdef LINUX
 	signal(SIGSTKFLT, signalHandler);
 	signal(SIGPWR, signalHandler);
+	#endif
 	signal(SIGSYS, signalHandler);
 	#endif
 

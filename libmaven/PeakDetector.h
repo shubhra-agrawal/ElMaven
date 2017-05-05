@@ -16,7 +16,7 @@
 #include <map>
 #include <utility>
 
-#include <omp.h>
+//#include <omp.h>
 #include "Compound.h"
 #include "classifier.h"
 #include "mavenparameters.h"

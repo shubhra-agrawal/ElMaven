@@ -2,13 +2,14 @@
 #define MASSCALC_H
 
 #include <iostream>
-#include <map>
 #include <sstream>
-#include <stdexcept>
 #include <string>
+#include <stdexcept>
+#include <map>
+#include "PeakGroup.h"
+#include "mzSample.h"
 #include "Peptide.hpp"
 #include "elementMass.h"
-#include "mzSample.h"
 #include "mzUtils.h"
 
 class Compound;

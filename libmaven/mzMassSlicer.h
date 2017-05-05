@@ -6,7 +6,7 @@
 #include "mzUtils.h"
 #include "Matrix.h"
 
-#include <omp.h>
+//#include <omp.h>
 #include <boost/signals2.hpp>
 #include <boost/bind.hpp>
 
